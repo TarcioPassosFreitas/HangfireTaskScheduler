@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarefa Agendada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Olá, {{nome_usuario}}</h1>
+    <p>Este é um email automático gerado pelo nosso aplicativo de agendamento de tarefas Hangfire.</p>
+    <p>Acabamos de concluir a execução do endpoint: {{nome_endpoint}} às {{horario_atual}}.</p>
+    <p>Se você não solicitou esta operação, por favor, entre em contato conosco.</p>
+    <p>Atenciosamente,</p>
+    <p>Equipe Hangfire Task Scheduler</p>
+</div>
+</body>
+</html>

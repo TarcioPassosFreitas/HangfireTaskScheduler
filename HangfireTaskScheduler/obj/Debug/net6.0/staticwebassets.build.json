@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kl0KnPsAoW6BWLqPk6eyeDF0u+QQ69PqRdngFZ5rULw=",
+  "Source": "HangfireTaskScheduler",
+  "BasePath": "_content/HangfireTaskScheduler",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
